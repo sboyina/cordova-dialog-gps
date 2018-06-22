@@ -24,11 +24,11 @@
         </config-file>
  
         <source-file src="src/android/DialogGPS.java" target-dir="src/cl/rmd/cordova/dialoggps" />
-        <source-file src="www/icon/drawable-hdpi/ic_location.png"  target-dir="res/drawable-hdpi/"/>
-        <source-file src="www/icon/drawable-mdpi/ic_location.png"  target-dir="res/drawable-mdpi/"/>
-        <source-file src="www/icon/drawable-xhdpi/ic_location.png"  target-dir="res/drawable-xhdpi/"/>
-        <source-file src="www/icon/drawable-xxhdpi/ic_location.png"  target-dir="res/drawable-xxhdpi/"/>
-        <source-file src="www/icon/drawable-xxxhdpi/ic_location.png"  target-dir="res/drawable-xxxhdpi/"/>
+        <source-file src="www/icon/drawable-hdpi/ic_location.png"  target-dir="android/app/src/main/res/drawable-hdpi/"/>
+        <source-file src="www/icon/drawable-mdpi/ic_location.png"  target-dir="android/app/src/main/res/drawable-mdpi/"/>
+        <source-file src="www/icon/drawable-xhdpi/ic_location.png"  target-dir="android/app/src/main/res/drawable-xhdpi/"/>
+        <source-file src="www/icon/drawable-xxhdpi/ic_location.png"  target-dir="android/app/src/main/res/drawable-xxhdpi/"/>
+        <source-file src="www/icon/drawable-xxxhdpi/ic_location.png"  target-dir="android/app/src/main/res/drawable-xxxhdpi/"/>
 
         <config-file target="app/src/main/AndroidManifest.xml"    parent="/manifest">
             <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
