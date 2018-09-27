@@ -1,0 +1,18 @@
+{
+  "name": "cordova-dialog-gps",
+  "version": "1.0.0",
+  "description": "Plugin for phonegap/cordova to display a dialog and redirect to GPS settings when de GPS is disable.",
+  "cordova": {
+    "id": "cordova-dialog-gps",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wavemaker/cordova-dialog-gps.git"
+  },
+  "keywords": [],
+  "author": "various",
+  "license": "MIT"
+}
