@@ -30,7 +30,7 @@
         <source-file src="www/icon/drawable-xxhdpi/ic_location.png"  target-dir="android/app/src/main/res/drawable-xxhdpi/"/>
         <source-file src="www/icon/drawable-xxxhdpi/ic_location.png"  target-dir="android/app/src/main/res/drawable-xxxhdpi/"/>
 
-        <config-file target="app/src/main/AndroidManifest.xml"    parent="/manifest">
+        <config-file target="app/src/main/AndroidManifest.xml"    parent="/*">
             <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
             <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
         </config-file>
